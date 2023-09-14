@@ -133,19 +133,19 @@ With this feature flag enabled, you can use a GitHub App as the [primary authent
 
 ##### Hotfixes
 
-#### Version 80314
+##### Version 80314
 
 - When escaping single quotes in environment variables, the same map was passed to subsequent command units which caused the escaped single quotes to escape again. (CDS-75775)
 
    This issue has been resolved. Subsequent command units do not escape single quotes again.
 
-#### Version 80313
+##### Version 80313
 
 - There were several `OverlappingFileLockException` errors caused by the version of the Chronicle Queue library used. (CCM-14174)
 
    The issue has been resolved. We upgraded the Chronicle Queue library to fix the errors.
 
-#### Version 80312
+##### Version 80312
 
 - In previous versions, when utilizing Artifactory as an artifact source, there was an issue where the retrieval of artifacts failed when the specified path included regular expressions, and the path structure was nested rather than flat. We are pleased to announce that this release addresses and resolves this issue.
 
