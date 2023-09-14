@@ -134,7 +134,10 @@ With this feature flag enabled, you can use a GitHub App as the [primary authent
 ##### Hotfixes
 
 #### Version 80314
-- Previously while escaping single quotes in envVariables same map was passed to subsequent command units which caused escaped single quotes to escape again, now subsequent command units will not escape single quotes again.
+
+- When escaping single quotes in environment variables, the same map was passed to subsequent command units which caused the escaped single quotes to escape again. (CDS-75775)
+
+   This issue has been resolved. Subsequent command units do not escape single quotes again.
 
 #### Version 80313
 
