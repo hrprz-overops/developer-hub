@@ -435,6 +435,13 @@ service:
 
 </details>
 
+## Create the Harness environment and infrastructure definition
+
+
+
+## Create the deployment strategy and steps
+
+
 
 
 
